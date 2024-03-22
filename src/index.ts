@@ -101,6 +101,13 @@ if (process.env.NODE_ENV === "development") {
     // Parse the updates to JSON
     app.use(express.json());
 
+    // Simple welcome route
+    app.get(`/`, (req, res) => {
+      res.status(200).send({
+        message: "Welcome to the JP80EastBot server!",
+      });
+    });
+
     // We are receiving updates at the route below
     app.post(`/bot${token}`, (req, res) => {
       bot.processUpdate(req.body);
