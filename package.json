@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node dist/index.js",
-    "dev": "ts-node src/index.ts"
+    "dev": "ts-node src/index.ts",
+    "postinstall": "tsc"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
