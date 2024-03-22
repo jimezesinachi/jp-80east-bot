@@ -1,0 +1,22 @@
+{
+  "name": "jp-80east-bot",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Jim Ezesinachi",
+    "url": "https://github.com/jimezesinachi"
+  },
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.65.1"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "@types/node-telegram-bot-api": "^0.64.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
