@@ -1,4 +1,3 @@
-import "dotenv/config";
 import TelegramBot from "node-telegram-bot-api";
 
 // Replace the value below with the Telegram token you receive from @BotFather
