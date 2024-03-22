@@ -1,12 +1,14 @@
 {
   "name": "jp-80east-bot",
   "version": "1.0.0",
+  "main": "dist/index.js",
   "license": "MIT",
   "author": {
     "name": "Jim Ezesinachi",
     "url": "https://github.com/jimezesinachi"
   },
   "scripts": {
+    "start": "node dist/index.js",
     "dev": "ts-node src/index.ts"
   },
   "dependencies": {
